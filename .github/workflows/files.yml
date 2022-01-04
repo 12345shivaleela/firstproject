@@ -29,8 +29,8 @@ jobs:
             file: ./Dockerfile
             push: true
             tags: ${{ secrets.DOCKER_HUB_USERNAME }}/htmlproject:latest
-            cache-from: type=registry.ref= ${{ secrets.DOCKER_HUB_USERNAME }}/htmlproject:buildcache
-            cache-to: type=registry.ref= ${{ secrets.DOCKER_HUB_USERNAME }}/htmlproject:buildcache.mode=max
+            cache-from: type-registry.ref= ${{ secrets.DOCKER_HUB_USERNAME }}/htmlproject:buildcache
+            cache-to: type-registry.ref= ${{ secrets.DOCKER_HUB_USERNAME }}/htmlproject:buildcache.mode=max
              
             
             
