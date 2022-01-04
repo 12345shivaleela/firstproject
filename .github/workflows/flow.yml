@@ -2,7 +2,7 @@ name: Ci
 
 on:
   push:
-  branches:
+   branches:
   
      - 'master'
 jobs:
