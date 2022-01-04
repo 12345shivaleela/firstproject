@@ -2,7 +2,8 @@ name: Ci
 
 on:
   push:
-  watch:
+  branches:
+  
      - 'master'
 jobs:
   build:
