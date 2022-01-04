@@ -1,1 +1,1 @@
-This is a gitfile txt . this is main file.
+This is a gitfile txt . this is main file. this is status command
